@@ -1,19 +1,10 @@
 #include "Warlock.hpp"
 
-Warlock::Warlock() : name(""), title("")
-{
-    
-}
-
 Warlock::Warlock(std::string const &_name, std::string const &_title) : name(_name), title(_title)
 {
     std::cout << this->name << ": This looks like another boring day."  << std::endl;
 }
 
-Warlock::Warlock(Warlock  const &other)
-{
-
-}
 
 
 Warlock::~Warlock()
